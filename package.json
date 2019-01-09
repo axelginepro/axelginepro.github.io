@@ -1,26 +1,21 @@
 {
-  "name": "deploy",
+  "name": "react-landing",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "npm": "5.7.1",
-    "node": "9.5.0"
-  },
+  "homepage": "http://axelginepro.github.io/",
   "scripts": {
-    "start": "react-scripts start",
-    
+    "start": "node scripts/start.js",
+    "start:prod": "ENV=prod node scripts/start.js",
     "clean": "rm -rf build",
     "prebuild": "npm run clean",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+    "deploy": "aws s3 cp build/ s3://dineshpandiyan.com --recursive"
   },
   "devDependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1",
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
