@@ -1,21 +1,17 @@
 {
-  "main.css": "static/css/main.20271af8.css",
-  "main.css.map": "static/css/main.20271af8.css.map",
-  "main.js": "static/js/main.2b6d2e9a.js",
-  "main.js.map": "static/js/main.2b6d2e9a.js.map",
-  "static/media/bikeshop.png": "static/media/bikeshop.97e24cf2.png",
+  "main.css": "static/css/main.892b2f69.css",
+  "main.css.map": "static/css/main.892b2f69.css.map",
+  "main.js": "static/js/main.1058ae5a.js",
+  "main.js.map": "static/js/main.1058ae5a.js.map",
   "static/media/bootstrap.css": "static/media/bootstrap.df40d6e4.css",
   "static/media/d4gamers.jpg": "static/media/d4gamers.887d2332.jpg",
   "static/media/hypnosecoaching.png": "static/media/hypnosecoaching.ad283286.png",
   "static/media/ldlc-ol.png": "static/media/ldlc-ol.1bfac774.png",
-  "static/media/musicall.png": "static/media/musicall.508ba288.png",
-  "static/media/mymovies.png": "static/media/mymovies.78eba80d.png",
   "static/media/reem-kufi-v4-latin-regular.woff": "static/media/reem-kufi-v4-latin-regular.20e4fd7e.woff",
   "static/media/reem-kufi-v4-latin-regular.woff2": "static/media/reem-kufi-v4-latin-regular.d8f8811d.woff2",
   "static/media/roboto-100.woff2": "static/media/roboto-100.9a8a1f8c.woff2",
   "static/media/roboto-300.woff2": "static/media/roboto-300.c0cc9c92.woff2",
   "static/media/roboto-400.woff2": "static/media/roboto-400.ece6673e.woff2",
   "static/media/roboto-900.woff2": "static/media/roboto-900.2e17a648.woff2",
-  "static/media/test.gif": "static/media/test.c404367f.gif",
-  "static/media/weathermap.png": "static/media/weathermap.bd3d820a.png"
+  "static/media/test.gif": "static/media/test.c404367f.gif"
 }
